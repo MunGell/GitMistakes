@@ -77,6 +77,10 @@ Just do not delete this information from there. It costs you nothing to store it
 
 #### How to avoid it
 
+#### Examples
+
+Uh-oh
+
 ## License
 
 CC0 1.0 Universal
