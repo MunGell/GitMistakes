@@ -42,6 +42,16 @@ Git already provides us with `git diff` functionality that shows differences bet
 
 It would be much more helpful to explain what was actually changed in term of functionality or meaning.
 
+### 4. Remove merge conflict information from merge commit
+
+#### Why is it mistake
+
+Usually git automatically adds infomation about conflicted files into merge commit message. This information is important for future use in case of any problems with code loss and wrong conflict resolutions.
+
+#### How to avoid it
+
+Just do not delete this information from there.
+
 ## License
 
 CC0 1.0 Universal
