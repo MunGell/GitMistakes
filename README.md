@@ -13,6 +13,7 @@ Try to explain what was changed in your commit in 80 characters.
 #### Examples
 
 - [5b2b8bf](https://github.com/MunGell/GitMistakes/commit/15b47b41ac8ac0f44a84e6893bb9222a1949ee72)
+- [cec5f10](https://github.com/MunGell/GitMistakes/commit/cec5f1038b4f2e714324d914520b74bf6ecaae31)
 
 ## License
 
