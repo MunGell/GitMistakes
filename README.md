@@ -73,11 +73,22 @@ Just do not delete this information from there. It costs you nothing to store it
 
 #### Examples
 
+- [dff1d64](https://github.com/MunGell/GitMistakes/commit/dff1d644a1da2718081d608070991a896adb70a9)
+
 ### 6. Make changes in conflicted merge
 
 #### Why is it mistake
 
+When git asks you to manually resolve a merge conflict it also allows you to make any changes in the code that will be then added to the merge commit.
+This kind of changes are incredibly difficult to track, which makes git pointless for the project.
+
 #### How to avoid it
+
+Never ever change anything in your code other than conflicting part. Create a separate commit - it costs nothing anyways.
+
+#### Examples
+
+- Uh-oh
 
 ## License
 
