@@ -1,5 +1,7 @@
 # GitMistakes
 
+A collection of mistakes I saw in repositories around the Internet that I hope we could avoid.
+
 ### 1. Short, undescriptive commit messages
 
 #### Why is it mistake
