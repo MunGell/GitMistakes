@@ -71,6 +71,12 @@ Usually git automatically adds infomation about conflicted files into merge comm
 
 Just do not delete this information from there. It costs you nothing to store it  and one day it might save you days of debugging.
 
+### 6. Make changes in conflicted merge
+
+#### Why is it mistake
+
+#### How to avoid it
+
 ## License
 
 CC0 1.0 Universal
