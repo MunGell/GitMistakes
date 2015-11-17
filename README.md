@@ -42,17 +42,6 @@ Git already provides us with `git diff` functionality that shows differences bet
 
 It would be much more helpful to explain what was actually changed in term of functionality or meaning.
 
-<<<<<<< HEAD
-### 4. Remove merge conflict information from merge commit
-
-#### Why is it mistake
-
-Usually git automatically adds infomation about conflicted files into merge commit message. This information is important for future use in case of any problems with code loss and wrong conflict resolutions.
-
-#### How to avoid it
-
-Just do not delete this information from there.
-=======
 #### Examples
 
 - [eaeff4b](https://github.com/MunGell/GitMistakes/commit/eaeff4ba46f78c5d3b7e1d106e358b8148a78245)
@@ -67,7 +56,20 @@ In most cases your code will stop working.
 
 Check the conflicting files.
 If you are unsure if you resolved all the conflicts - search in file for ">>>".
->>>>>>> add-merge-conflict-situation
+
+#### Examples
+
+- [0a5c8e5](https://github.com/MunGell/GitMistakes/commit/0a5c8e54ae6a892360d2da0baa2b529d5d76f62a)
+
+### 5. Remove merge conflict information from merge commit
+
+#### Why is it mistake
+
+Usually git automatically adds infomation about conflicted files into merge commit message. This information is important for future use in case of any problems with code loss and wrong conflict resolutions.
+
+#### How to avoid it
+
+Just do not delete this information from there. It costs you nothing to store it  and one day it might save you days of debugging.
 
 ## License
 
