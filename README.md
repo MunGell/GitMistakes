@@ -2,6 +2,8 @@
 
 A collection of mistakes I saw in repositories around the Internet that I hope we could avoid.
 
+## Commit messages
+
 ### 1. Short, undescriptive commit messages
 
 #### Why is it mistake
@@ -45,6 +47,8 @@ It would be much more helpful to explain what was actually changed in term of fu
 #### Examples
 
 - [eaeff4b](https://github.com/MunGell/GitMistakes/commit/eaeff4ba46f78c5d3b7e1d106e358b8148a78245)
+
+## Merges
 
 ### 4. Commit merge conflict pointers
 
