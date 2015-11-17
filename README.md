@@ -42,6 +42,21 @@ Git already provides us with `git diff` functionality that shows differences bet
 
 It would be much more helpful to explain what was actually changed in term of functionality or meaning.
 
+#### Examples
+
+- [eaeff4b](https://github.com/MunGell/GitMistakes/commit/eaeff4ba46f78c5d3b7e1d106e358b8148a78245)
+
+### 4. Commit merge conflict pointers
+
+#### Why is it mistake
+
+In most cases your code will stop working.
+
+#### How to avoid it
+
+Check the conflicting files.
+If you are unsure if you resolved all the conflicts - search in file for ">>>".
+
 ## License
 
 CC0 1.0 Universal
