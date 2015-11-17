@@ -88,11 +88,11 @@ This kind of changes are incredibly difficult to track, which makes git pointles
 
 #### How to avoid it
 
-Never ever change anything in your code other than conflicting part. Create a separate commit - it costs nothing anyways.
+Never ever change anything in your code other than conflicting part. Create a separate commit - it costs nothing anyways. Look at the example below - there is no way to say which changes came from the merged branch and which were added during conflict resolution.
 
 #### Examples
 
-- Uh-oh
+- [da52143](https://github.com/MunGell/GitMistakes/commit/da521434a07f0d3b98234747d65bb0888c912eb5)
 
 ## License
 
