@@ -69,7 +69,7 @@ If you are unsure if you resolved all the conflicts - search in file for ">>>".
 
 #### Why is it mistake
 
-Usually git automatically adds infomation about conflicted files into merge commit message. This information is important for future use in case of any problems with code loss and wrong conflict resolutions.
+Usually git automatically adds information about conflicted files into merge commit message. This information is important for future use in case of any problems with code loss and wrong conflict resolutions.
 
 #### How to avoid it
 
